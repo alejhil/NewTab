@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewTab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;700&family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <div id="clock"></div>
+    <div id="date"></div>
+    <div id="headline"></div>
+    <div id="overlay" class="overlay">
+        <form id="searchForm" action="https://www.google.com/search" method="get">
+            <input type="text" name="q" id="searchInput" autocomplete="off" autofocus>
+        </form>
+        <div id="links" class="links">
+            <ul>
+                <li><a href="https://www.reddit.com" target="_self">reddit</a></li>
+                <li><a href="https://www.reuters.com" target="_self">reuters</a></li>
+                <li><a href="https://www.youtube.com" target="_self">youtube</a></li>
+                <li><a href="https://plex.tv" target="_self">plex</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="clock.js"></script>
+    <script src="background.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
