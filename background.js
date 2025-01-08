@@ -1,5 +1,5 @@
 function getRandomBackground() {
-    const backgroundsDir = 'backgrounds/';
+    const backgroundsDir = '/backgrounds/';
     const images = [];
     fetch(backgroundsDir)
         .then(response => response.text())
